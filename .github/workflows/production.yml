@@ -52,7 +52,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.klrita }}
-          password: ${{ secrets.8aggyJeans* }}
+          password: ${{ secrets.['8aggyJeans'} }}
           
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
